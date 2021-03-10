@@ -4,6 +4,10 @@ AWS Glue Elastic Views enables you to replicate data across multiple AWS data st
 
 As on today, Only DynamoDB is supported as the source and we can chose between three different destinations: `S3` or `ElasticSearch` or `Redshift`.
 
+![Miztiik Automation: AWS Glue Elastic Views - DynamoDB to S3 Materialization](images/miztiik_automation_glue_elastic_views_on_s3_architecture_00.png)
+<sup>Image Credit: AWS Docs</sup>
+
+
 This means, you can query your DynamoDB table with SQL like querying in(Athena/Redshift) or use the power of full text search offered by Elasticsearch. You can also extend this data by enriching it with data from other sources. Say for example, orders data in Dynamodb can be combined along with customer profile from another datastore.
 
 _As of now(Q1 2021) this service is in preview. That means lots of new functionality will get added in the future and any limitations mentioned in those post may be removed in future._
