@@ -8,7 +8,7 @@ As on today, Only DynamoDB is supported as the source and we can chose between t
 <sup>Image Credit: AWS Docs</sup>
 
 
-This means, you can query your DynamoDB table with SQL like querying in(Athena/Redshift) or use the power of full text search offered by Elasticsearch. You can also extend this data by enriching it with data from other sources. Say for example, orders data in Dynamodb can be combined along with customer profile from another datastore.
+This means, you can query your DynamoDB table with SQL like querying in(Athena/Redshift) or use the power of full text search offered by Elasticsearch. You can also extend this data by enriching it with data from other sources. Say for example, orders data in DynamoDB can be combined along with customer profile from another datastore.
 
 _As of now(Q1 2021) this service is in preview. That means lots of new functionality will get added in the future and any limitations mentioned in those post may be removed in future._
 
